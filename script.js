@@ -21,7 +21,7 @@ console.log("do while loop ........");
 let correctPin = "1234" ;
 let enteredPin ;
 do{
-    enteredPin = prompt("enter PIN:")
+    enteredPin = prompt("enter PIN (1234): ")
     if (enteredPin == correctPin) {
         alert("logged in successfully");
     }
